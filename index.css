@@ -1,0 +1,121 @@
+* {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+:root {
+   --title: #1c232b;
+   --text: #6c7289;
+   --price_btn: #3c8067;
+}
+
+body {
+    position: static;
+    font-weight: 95vw;
+    height: 95vh;
+    background-color: hsl(30, 38%, 92%); 
+}
+
+.contaier {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slika {
+    height: 500px;
+    top: 24.8%;
+    left: 14%;
+    border-radius: 20px 0 0 20px;
+}
+
+h3 {
+    position: absolute;
+    padding-left: 55%;
+    top: 10%;
+    font-weight: 500;
+    color: var(--text);
+}
+
+h1 {
+    position: absolute;
+    font-family: Fraunces;
+    padding-left: 55%;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    top: 15%;
+    font-weight: 500;
+    color: var(--title);
+}
+
+p {
+    position: absolute;
+    padding-left: 55%;
+    width: 200px;
+    top: 43%;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 18px;
+}
+
+.price {
+    position: absolute;
+    font-family: Fraunces;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    top: 65%;
+    font-weight: 500;
+    color: var(--price_btn);
+}
+
+.old_price {
+    position: absolute;
+    top: 69%;
+    padding-left: 78%;
+}
+
+.icon {
+    position: relative;
+    top: -9.5%;
+    left: 17%;
+    transition: all .3s;
+}
+
+#submit {
+    position: absolute;
+    top: 83%;
+    left: 55%;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(157, 46%, 23%);
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    transition: all .3s;
+}
+
+#submit:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px .5px black;
+}
+
+#submit:active {
+    cursor: pointer;
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px .5px black;
+}
+
+#submit:active + .icon {
+    cursor: pointer;
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px .5px black;
+}
