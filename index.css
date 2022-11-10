@@ -81,11 +81,10 @@ p {
     padding-left: 78%;
 }
 
-.icon {
-    position: relative;
-    top: -48px;
-    left: 17%;
-    transition: all .3s;
+.cart {
+    position: absolute;
+    top: 36%;
+    left: 28%;
 }
 
 #submit {
@@ -99,7 +98,7 @@ p {
     background-color: hsl(157, 46%, 23%);
     color: white;
     font-weight: 700;
-    text-align: center;
+    padding-left: 30px;
     transition: all .3s;
 }
 
