@@ -83,7 +83,7 @@ p {
 
 .icon {
     position: relative;
-    top: -9.5%;
+    top: -48px;
     left: 17%;
     transition: all .3s;
 }
